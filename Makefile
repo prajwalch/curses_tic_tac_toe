@@ -6,7 +6,7 @@ DEBUG=0
 
 STD=-std=c99
 WARN=-Wall -Wextra -Wpedantic \
-     -Wformat=2 -Wshadow -Wunused-function \
+     -Wformat=2 -Wshadow \
      -Wwrite-strings -Wstrict-prototypes -Wold-style-definition \
      -Wredundant-decls -Wnested-externs -Wmissing-include-dirs
 
