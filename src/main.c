@@ -313,6 +313,7 @@ int main(int argc, char **argv)
         }
 
         if (pressed_key == '\n') {
+            // clear "Press ENTER to **" message
             move(7, 10);
             clrtoeol();
             refresh();
