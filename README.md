@@ -7,15 +7,15 @@
   - Ncurses
 
 - Clone this repo
-```bash
-git clone https://github.com/PrajwalCH/curses_tic_tac_toe.git
-cd curses_tic_tac_toe
-```
+  ```bash
+  git clone https://github.com/PrajwalCH/curses_tic_tac_toe.git
+  cd curses_tic_tac_toe
+  ```
 - Run make
-```bash
-# For debug build run with DEBUG=1
-make
-```
+  ```bash
+  # For debug build run with DEBUG=1
+  make
+  ```
 
 ## TODO:
-- Clear the winner announce message after user reset the game
+   - Clear the winner announce message after user reset the game
