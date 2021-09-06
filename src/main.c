@@ -315,7 +315,7 @@ int main(int argc, char **argv)
              * refresh();
              */
 
-            reset_game(board, cells_position, cells_state, &whose_turn); /
+            reset_game(board, cells_position, cells_state, &whose_turn);
         }
 
         if (pressed_key == '\n') {
