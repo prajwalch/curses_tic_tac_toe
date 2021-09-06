@@ -306,10 +306,16 @@ int main(int argc, char **argv)
     wmove(board, cursor_y_pos, cursor_x_pos);
     while ((pressed_key = wgetch(board)) != 'Q') {
         if (pressed_key == 'S' && whose_turn == NOONE) {
-            move(4, 0);
-            clrtoeol();
-            refresh();
-            reset_game(board, cells_position, cells_state, &whose_turn);
+            /*
+             * TODO: clear winner announce message after user restart the game
+             *
+             * This doesn't work
+             * move(4, 0);
+             * clrtoeol();
+             * refresh();
+             */
+
+            reset_game(board, cells_position, cells_state, &whose_turn); /
         }
 
         if (pressed_key == '\n') {
